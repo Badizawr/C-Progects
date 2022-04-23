@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\С#\\Exemple_001\\Exemple_001.csproj": {}
+    "D:\\С#\\Exemple001_HelloWorld\\Exemple_001.csproj": {}
   },
   "projects": {
-    "D:\\С#\\Exemple_001\\Exemple_001.csproj": {
+    "D:\\С#\\Exemple001_HelloWorld\\Exemple_001.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\С#\\Exemple_001\\Exemple_001.csproj",
+        "projectUniqueName": "D:\\С#\\Exemple001_HelloWorld\\Exemple_001.csproj",
         "projectName": "Exemple_001",
-        "projectPath": "D:\\С#\\Exemple_001\\Exemple_001.csproj",
+        "projectPath": "D:\\С#\\Exemple001_HelloWorld\\Exemple_001.csproj",
         "packagesPath": "C:\\Users\\vicod\\.nuget\\packages\\",
-        "outputPath": "D:\\С#\\Exemple_001\\obj\\",
+        "outputPath": "D:\\С#\\Exemple001_HelloWorld\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vicod\\AppData\\Roaming\\NuGet\\NuGet.Config"
