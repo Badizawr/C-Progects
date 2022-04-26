@@ -1,0 +1,15 @@
+D:\С#\Exemple006_lekshion\obj\Debug\net6.0\Exemple006_lekshion.csproj.AssemblyReference.cache
+D:\С#\Exemple006_lekshion\obj\Debug\net6.0\Exemple006_lekshion.GeneratedMSBuildEditorConfig.editorconfig
+D:\С#\Exemple006_lekshion\obj\Debug\net6.0\Exemple006_lekshion.AssemblyInfoInputs.cache
+D:\С#\Exemple006_lekshion\obj\Debug\net6.0\Exemple006_lekshion.AssemblyInfo.cs
+D:\С#\Exemple006_lekshion\obj\Debug\net6.0\Exemple006_lekshion.csproj.CoreCompileInputs.cache
+D:\С#\Exemple006_lekshion\bin\Debug\net6.0\Exemple006_lekshion.exe
+D:\С#\Exemple006_lekshion\bin\Debug\net6.0\Exemple006_lekshion.deps.json
+D:\С#\Exemple006_lekshion\bin\Debug\net6.0\Exemple006_lekshion.runtimeconfig.json
+D:\С#\Exemple006_lekshion\bin\Debug\net6.0\Exemple006_lekshion.dll
+D:\С#\Exemple006_lekshion\bin\Debug\net6.0\Exemple006_lekshion.pdb
+D:\С#\Exemple006_lekshion\obj\Debug\net6.0\Exemple006_lekshion.dll
+D:\С#\Exemple006_lekshion\obj\Debug\net6.0\refint\Exemple006_lekshion.dll
+D:\С#\Exemple006_lekshion\obj\Debug\net6.0\Exemple006_lekshion.pdb
+D:\С#\Exemple006_lekshion\obj\Debug\net6.0\Exemple006_lekshion.genruntimeconfig.cache
+D:\С#\Exemple006_lekshion\obj\Debug\net6.0\ref\Exemple006_lekshion.dll

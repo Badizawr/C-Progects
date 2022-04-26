@@ -1,5 +1,0 @@
-D:\С#\Exemple006_lekshion\obj\Debug\net6.0\Exemple006_lekshion.csproj.AssemblyReference.cache
-D:\С#\Exemple006_lekshion\obj\Debug\net6.0\Exemple006_lekshion.GeneratedMSBuildEditorConfig.editorconfig
-D:\С#\Exemple006_lekshion\obj\Debug\net6.0\Exemple006_lekshion.AssemblyInfoInputs.cache
-D:\С#\Exemple006_lekshion\obj\Debug\net6.0\Exemple006_lekshion.AssemblyInfo.cs
-D:\С#\Exemple006_lekshion\obj\Debug\net6.0\Exemple006_lekshion.csproj.CoreCompileInputs.cache
