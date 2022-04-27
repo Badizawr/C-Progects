@@ -1,0 +1,15 @@
+D:\С#\Leson1\Exemple005_RandomSum\obj\Debug\net6.0\Exemple005_RandomSum.csproj.AssemblyReference.cache
+D:\С#\Leson1\Exemple005_RandomSum\obj\Debug\net6.0\Exemple005_RandomSum.GeneratedMSBuildEditorConfig.editorconfig
+D:\С#\Leson1\Exemple005_RandomSum\obj\Debug\net6.0\Exemple005_RandomSum.AssemblyInfoInputs.cache
+D:\С#\Leson1\Exemple005_RandomSum\obj\Debug\net6.0\Exemple005_RandomSum.AssemblyInfo.cs
+D:\С#\Leson1\Exemple005_RandomSum\obj\Debug\net6.0\Exemple005_RandomSum.csproj.CoreCompileInputs.cache
+D:\С#\Leson1\Exemple005_RandomSum\bin\Debug\net6.0\Exemple005_RandomSum.exe
+D:\С#\Leson1\Exemple005_RandomSum\bin\Debug\net6.0\Exemple005_RandomSum.deps.json
+D:\С#\Leson1\Exemple005_RandomSum\bin\Debug\net6.0\Exemple005_RandomSum.runtimeconfig.json
+D:\С#\Leson1\Exemple005_RandomSum\bin\Debug\net6.0\Exemple005_RandomSum.dll
+D:\С#\Leson1\Exemple005_RandomSum\bin\Debug\net6.0\Exemple005_RandomSum.pdb
+D:\С#\Leson1\Exemple005_RandomSum\obj\Debug\net6.0\Exemple005_RandomSum.dll
+D:\С#\Leson1\Exemple005_RandomSum\obj\Debug\net6.0\refint\Exemple005_RandomSum.dll
+D:\С#\Leson1\Exemple005_RandomSum\obj\Debug\net6.0\Exemple005_RandomSum.pdb
+D:\С#\Leson1\Exemple005_RandomSum\obj\Debug\net6.0\Exemple005_RandomSum.genruntimeconfig.cache
+D:\С#\Leson1\Exemple005_RandomSum\obj\Debug\net6.0\ref\Exemple005_RandomSum.dll
