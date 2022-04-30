@@ -8,24 +8,31 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\vicod\\.nuget\\packages\\": {}
+    "C:\\Users\\vicod\\.nuget\\packages\\": {},
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\С#\\Exemple006_lekshion\\Exemple006_lekshion.csproj",
+      "projectUniqueName": "D:\\С#\\Leson2\\Task_001\\Exemple006_lekshion.csproj",
       "projectName": "Exemple006_lekshion",
-      "projectPath": "D:\\С#\\Exemple006_lekshion\\Exemple006_lekshion.csproj",
+      "projectPath": "D:\\С#\\Leson2\\Task_001\\Exemple006_lekshion.csproj",
       "packagesPath": "C:\\Users\\vicod\\.nuget\\packages\\",
-      "outputPath": "D:\\С#\\Exemple006_lekshion\\obj\\",
+      "outputPath": "D:\\С#\\Leson2\\Task_001\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\vicod\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\vicod\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -58,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
