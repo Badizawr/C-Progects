@@ -2,12 +2,12 @@
  какое число больше, а какое меньше.*/
 
 /* решение как в примере
- Console.Write("Введите первое чило -> ");
+ Console.Write("Введите чило a -> ");
 int num1 = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите второе число -> ");
+Console.Write("Введите число b -> ");
 int num2 = Convert.ToInt32(Console.ReadLine());
 bool result = num1 > num2;
-Console.Write(result ? "Max -> " + num1 : "Max ->" + num2);
+Console.Write(result ? "Max = " + num1 : "Max " + num2);
 Console.ReadKey();
 */
 
