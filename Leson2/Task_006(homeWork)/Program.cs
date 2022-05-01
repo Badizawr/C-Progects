@@ -5,7 +5,7 @@ Console.Write("Введите число -> ");
 int num = int.Parse(Console.ReadLine());
 bool result = num % 2 == 0;
 Console.Write(result ? "Число чётное" : "Число не Чётное");
-Console.ReadKey()
+Console.ReadKey();
 
 /* через if else
 
