@@ -13,7 +13,7 @@ Console.Write("Введите число -> ");
 int num = int.Parse(Console.ReadLine());
 if (num % 2 == 0  )
 {
-    Console.Write("Число чётное");
+    Console.Write("Да");
 }
-else Console.Write("Число не чётное");
+else Console.Write("Нет");
 Console.ReadKey();*/
