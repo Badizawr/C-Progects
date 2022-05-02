@@ -3,10 +3,11 @@
 
 Console.Write("Введите целое число -> ");
 int N = int.Parse(Console.ReadLine());
-int i = 0;
-while(i < N)
+for (int i = 0; i < N; i++)
 {
-i +=2;
-Console.Write(i +" ");
+    if (i % 2 == 0)
+    {
+        Console.Write(i + " ");
+    }
 }
 Console.ReadKey();
