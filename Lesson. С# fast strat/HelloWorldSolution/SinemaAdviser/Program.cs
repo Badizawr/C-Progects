@@ -6,7 +6,7 @@ String name = Console.ReadLine();
 
 Console.WriteLine("Здравствуйте," + name);
 
-Console.WriteLine("Фильм какого жанра вы бы хотели посмотреть: комедия, драмма или фантастика");
+Console.WriteLine("Фильм какого жанра вы бы хотели посмотреть: комедия, драмма,ужасы или фантастика");
 String gener = Console.ReadLine();
 
 Console.WriteLine("В таком случае, рекомендую посмотреть вам следующие фильмы:");
@@ -24,7 +24,7 @@ else if (gener.ToLower() == "фантастика")
     Console.WriteLine("*Люди икс");
     Console.WriteLine("Железный Человек");
     Console.WriteLine("Тор");
-}    
+}
 else
 {
     Console.WriteLine("* Зелёная миля");
