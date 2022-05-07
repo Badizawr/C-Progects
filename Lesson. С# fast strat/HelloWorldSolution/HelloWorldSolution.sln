@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "HelloWorld\He
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SinemaAdviser", "SinemaAdviser\SinemaAdviser.csproj", "{7298353E-E4BC-4EF4-94B3-A2290963781D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator", "SimpleCalculator\SimpleCalculator.csproj", "{A8F84866-BBC4-4DF7-8602-08C4BBAF878E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCalculator", "SimpleCalculator\SimpleCalculator.csproj", "{A8F84866-BBC4-4DF7-8602-08C4BBAF878E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurtleTraning", "TurtleTraning\TurtleTraning.csproj", "{D2B8D654-66E3-4C38-B534-D0FE121A1A4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{A8F84866-BBC4-4DF7-8602-08C4BBAF878E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8F84866-BBC4-4DF7-8602-08C4BBAF878E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8F84866-BBC4-4DF7-8602-08C4BBAF878E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2B8D654-66E3-4C38-B534-D0FE121A1A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2B8D654-66E3-4C38-B534-D0FE121A1A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2B8D654-66E3-4C38-B534-D0FE121A1A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2B8D654-66E3-4C38-B534-D0FE121A1A4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

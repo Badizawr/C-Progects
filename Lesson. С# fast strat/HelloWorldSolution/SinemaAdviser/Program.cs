@@ -21,9 +21,15 @@ if (gener.ToLower() == "комедия")
 }
 else if (gener.ToLower() == "фантастика")
 {
-    Console.WriteLine("*Люди икс");
-    Console.WriteLine("Железный Человек");
-    Console.WriteLine("Тор");
+    Console.WriteLine("* Люди икс");
+    Console.WriteLine("* Железный Человек");
+    Console.WriteLine("* Тор");
+}
+else if (gener.ToLower() == "ужасы")
+{
+    Console.WriteLine("* Пила");
+    Console.WriteLine("* Астрал");
+    Console.WriteLine("* Поворот не туда");
 }
 else
 {
