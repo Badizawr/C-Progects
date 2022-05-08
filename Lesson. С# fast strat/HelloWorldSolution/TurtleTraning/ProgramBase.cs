@@ -1,10 +1,8 @@
-﻿//Пробуем управлять черепашкой
-using System;
-using Microsoft.SmallBasic.Library;
-
+﻿using Microsoft.SmallBasic.Library;
+//Пробуем управлять черепашкой
 namespace ConsoleApp7
 {
-    class Program
+    internal class ProgramBase
     {
         static void Main(string[] args)
         {
