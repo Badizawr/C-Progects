@@ -10,7 +10,7 @@ namespace TurtleGame
           GraphicsWindow.KeyDown += GraphicsWindow_KeyDown;
           Turtle.PenUp();
 
-          GraphicsWindow.BrushColor = "blue";
+          GraphicsWindow.BrushColor = "yellow";
           var eat = Shapes.AddRectangle(10, 10);
           int x = 200;
           int y = 200;
@@ -26,7 +26,7 @@ namespace TurtleGame
                     x = rand.Next(0, GraphicsWindow.Width);
                     y = rand.Next(0, GraphicsWindow.Height);
                     Shapes.Move(eat, x, y);
-                    Turtle.Speed++;
+                    //Turtle.Speed++; //увеличивает скорость черепашки
                 }
             }
         }
