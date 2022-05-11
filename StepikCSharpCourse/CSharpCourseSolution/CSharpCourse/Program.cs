@@ -6,9 +6,49 @@ namespace CSharpCourse
     {
         static void Main(string[] args)
         {
-            
+           
         }
 
+        static void Literals()
+        {
+            //бинарные литералы 0b
+            int x = 0b11;
+            int y = 0b1001;
+            int k = 0b10001001;
+            int m = 0b1000_1001;
+
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+            Console.WriteLine(k);
+            Console.WriteLine(m);
+
+            //шестнадцатиричная система 0х
+            x = 0x1F;
+            y = 0xFF0D;
+            k = 0x1FAB30EF;
+            m = 0x1FAB_30EF;
+            Console.WriteLine();
+
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+            Console.WriteLine(k);
+            Console.WriteLine(m);
+
+            Console.WriteLine();
+
+            Console.WriteLine(4.5e2); //4.5 * 10^2 = 450
+            Console.WriteLine(3.1E-1); //3.1 * 10^-1 = 0.31
+
+            Console.WriteLine();
+
+            //таблица ASCII
+            Console.WriteLine('\x78'); //x
+            Console.WriteLine('\x66'); //f
+
+            //таблица Unicode
+            Console.WriteLine('\u0420'); // P
+            Console.WriteLine('\u0421'); // C
+        }
         static void Variables()
         {
             int x = -1;
@@ -44,6 +84,7 @@ namespace CSharpCourse
             object obj2 = "obj2"; //так не стоит делать
 
             Console.WriteLine(a);
+            Console.WriteLine(name);
         }
     }
 }
