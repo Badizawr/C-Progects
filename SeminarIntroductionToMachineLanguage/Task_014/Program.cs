@@ -12,10 +12,3 @@ Console.Write("Enter number A :");
 int a = int.Parse(Console.ReadLine());
 bool res = a % 7 == 0 && a % 23 == 0;
 Console.WriteLine(res ? "Yes" : "No");
-
-Console.Write("Enter number A :");
-int a = int.Parse(Console.ReadLine());
-Console.Write("Enter number B :");
-int b = int.Parse(Console.ReadLine());
-bool res = b == a * a || a == b * b;
-Console.WriteLine(res ? "Да" : "Нет");
