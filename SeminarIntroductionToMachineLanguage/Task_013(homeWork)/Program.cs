@@ -7,8 +7,8 @@
 // 32679 -> 6
 
 Console.Write("Введи число: ");
-int Number = Convert.ToInt32(Console.ReadLine());
-string NumberText = Convert.ToString(Number);
+//int Number = Convert.ToInt32(Console.ReadLine());
+string NumberText = Console.ReadLine();
 if (NumberText.Length > 2)
 {
     Console.WriteLine("третья цифра -> " + NumberText[2]);
