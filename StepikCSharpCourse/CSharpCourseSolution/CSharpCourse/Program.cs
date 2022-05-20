@@ -6,9 +6,67 @@ namespace CSharpCourse
     {
         static void Main(string[] args)
         {
-            
+            int x = 1;
+            x = x + 1;
+            Console.WriteLine(x);
+            // инкремент
+            x++; //постфиксная запись
+            Console.WriteLine(x);
+
+            ++x; //инфиксная запись
+            Console.WriteLine(x);
+            //декримент
+            x = x - 1;
+            --x;
+            x--;
+            Console.WriteLine(x);
+
+            Console.WriteLine("Learn about increments");
+            Console.WriteLine($"Last x state is {x}");
+
+            int j = x++; // в этом случае операция присвоения "=" имеет больший приоритет
+            Console.WriteLine(j);
+            Console.WriteLine(x);
+
+            j = ++x; // прификсный  имеет больший приоритет сначала прибовляем потом назначаем 
+            Console.WriteLine(x);
+            Console.WriteLine(j);
         }
 
+        static void Overflow()
+        {
+        checked
+            {
+            uint x = uint.MaxValue;
+            Console.WriteLine(x);
+
+            x = x + 1;
+            Console.WriteLine(x);
+
+            x = x - 1;
+            Console.WriteLine(x);
+            }
+        }
+        static void VariablesScope()
+        {
+            var a = 1;
+            {
+                var b = 2;
+                {
+                    var c = 3;
+
+                    Console.WriteLine(a);
+                    Console.WriteLine(b);
+                    Console.WriteLine(c);
+                }
+                Console.WriteLine(a);
+                Console.WriteLine(b);
+                // Console.WriteLine(c); переменная с в незоне видимости
+            }
+            Console.WriteLine(a);
+            //Console.WriteLine(b); переменная в незоне видимости
+            //Console.WriteLine(c); переменная в незоне видимости
+        }
         static void Literals()
         {
             //бинарные литералы 0b
