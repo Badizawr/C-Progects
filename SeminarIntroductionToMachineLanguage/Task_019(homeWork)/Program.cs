@@ -6,12 +6,12 @@
 
 Console.Write("Введите число для проверки на палиндром: ");
 string text = Console.ReadLine();
-int len = text.Length;
+int length = text.Length;
 bool palindrom = true;
 
-for (int i = 0; i < len / 2; i++)
+for (int i = 0; i < length / 2; i++)
 {
-    if (text[i] != text[len - (i + 1)])
+    if (text[i] != text[length - (i + 1)])
     {
         palindrom = false;
         break;
