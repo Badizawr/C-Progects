@@ -5,14 +5,16 @@
 // 2 -> 10
 
 Console.WriteLine("Введите первое число: ");
-int a = int.Parse(Console.ReadLine());
+int num = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите основание системы счисления: ");
+int baseNum = int.Parse(Console.ReadLine());
+
 int result = 0;
-
-while (a > 0)
+int d10 = 1;
+while (num != 0)
 {
-    result = a % 2;
-    a = a / 2;
-
+    result = result + num % baseNum * d10;
+    num /= baseNum;
+    d10 *= 10;
 }
-
 Console.WriteLine(result);
