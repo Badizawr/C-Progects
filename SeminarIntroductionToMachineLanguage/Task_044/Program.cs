@@ -6,13 +6,18 @@
 
 Console.Write("До какого числа делаем вывод: ");
 int size = int.Parse(Console.ReadLine());
-int nums = 0;
-int nums2 = 1;
-int[] numbers = new int[size];
-//int count = 0;
+int sum = 0;
+Console.Write("{0} ", sum);
+int num1 = 1;
+Console.Write("{0} ", num1);
+int num2 = 1;
+Console.Write("{0} ", num2);
 
-for (int i = 0; i <= size; i++)
+
+for (int i = 3; i <= size-1; i++)
 {
-    nums2 = nums2 + nums;
-    
+    sum = num1 + num2;
+    Console.Write("{0} ", sum);
+    num1 = num2;
+    num2 = sum;
 }
