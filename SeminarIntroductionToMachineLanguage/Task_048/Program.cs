@@ -6,6 +6,11 @@
 // 1 2 3 4
 // 2 3 4 5
 
+Console.Write("Введите количество строк: ");
+int m =int.Parse(Console.ReadLine());
+Console.Write("Введите количество столбцов: ");
+int n =int.Parse(Console.ReadLine());
+
 void FillArray(int[,] array)
 {
     for (int m = 0; m < array.GetLength(0); m++)
@@ -27,8 +32,7 @@ void PrintArray(int[,] array)
         Console.WriteLine();
     }
 }
-int m = 5;
-int n = 5;
+
 int[,] array = new int[m, n];
 
 FillArray(array);
