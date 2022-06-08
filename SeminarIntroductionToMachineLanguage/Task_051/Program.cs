@@ -13,7 +13,7 @@ Console.Write("Введите количество столбцов: ");
 int n = int.Parse(Console.ReadLine());
 int[,] array = new int[m, n];
 
-void FillArray(int[,] array)
+void FillArray(int[,] arr)
 {
     for (int m = 0; m < array.GetLength(0); m++)
     {
@@ -23,7 +23,7 @@ void FillArray(int[,] array)
         }
     }
 }
-void PrintArray(int[,] array)
+void PrintArray(int[,] arr1)
 {
     for (int m = 0; m < array.GetLength(0); m++)
     {
@@ -35,7 +35,7 @@ void PrintArray(int[,] array)
     }
 }
 
-int Sum(int[,] array)
+int Sum(int[,] arr2)
 {
     int sum = 0;
     for (int m = 0; m < array.GetLength(0); m++)
