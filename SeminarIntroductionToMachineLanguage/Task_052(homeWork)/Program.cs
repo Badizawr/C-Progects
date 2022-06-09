@@ -36,15 +36,7 @@ void PrintArray(int[,] arr1)
     }
 }
 
-int Sum(int[,] arr2)
-{
-    int sum = 0;
-    for (int m = 0; m < array.GetLength(0); m++)
-    {
-        sum += array[m, m];
-    }
-    return sum;
-}
+Average
 
 FillArray(array);
 PrintArray(array);

@@ -16,7 +16,7 @@ void FillArray(double[,] arr)
     {
         for (int n = 0; n < array.GetLength(1); n++)
         {
-            array[m, n] = new Random().NextDouble();
+            array[m, n] = new Random().NextDouble() * 20 - 10;
         }
     }
 }
