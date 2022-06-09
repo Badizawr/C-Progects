@@ -21,7 +21,7 @@ void FillArray(int[,] arr)
     {
         for (int n = 0; n < array.GetLength(1); n++)
         {
-            array[m, n] = new Random().Next(0,20);
+            array[m, n] = new Random().Next(1, 20);
         }
     }
 }
@@ -55,3 +55,4 @@ PrintArray(array);
 Console.WriteLine();
 Console.WriteLine("Позиция элемента в массиве:");
 Console.WriteLine(Position(array));
+

@@ -1,6 +1,5 @@
 ﻿// Задайте двумерный массив из целых чисел.
-// Найдите среднее арифметическое элементов в каждом
-// столбце.
+// Найдите среднее арифметическое элементов в каждом столбце.
 // Например, задан массив:
 // 1 4 7 2
 // 5 9 2 3
@@ -20,7 +19,7 @@ void FillArray(int[,] arr)
     {
         for (int n = 0; n < array.GetLength(1); n++)
         {
-            array[m, n] = m + n;
+            array[m, n] = new Random().Next(0,50);
         }
     }
 }
@@ -35,10 +34,26 @@ void PrintArray(int[,] arr1)
         Console.WriteLine();
     }
 }
-
-Average
+string AverageMean(int[,] array)
+{
+    string result = string.Empty;
+    for (int n = 0; n < array.GetLength(1); n++)
+    {
+        int sum = 0;
+        int count = 0;
+        double mean = 0;
+        for (int m = 0; m < array.GetLength(0); m++)
+        {
+            sum += array[m, n];
+            count++;
+        }
+        mean = sum / count;
+        result += mean.ToString() + " ";
+    }
+    return result;
+}
 
 FillArray(array);
 PrintArray(array);
 Console.WriteLine();
-Console.Write($"Cумма элементов на главной диагонали равна {Sum(array)}");
+Console.WriteLine($"Cреднее арифметическое элементов в каждом столбце. {AverageMean(array)}");

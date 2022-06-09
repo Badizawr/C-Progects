@@ -7,9 +7,9 @@
 // 2 3 4 5
 
 Console.Write("Введите количество строк: ");
-int m =int.Parse(Console.ReadLine());
+int m = int.Parse(Console.ReadLine());
 Console.Write("Введите количество столбцов: ");
-int n =int.Parse(Console.ReadLine());
+int n = int.Parse(Console.ReadLine());
 
 void FillArray(int[,] arr)
 {
